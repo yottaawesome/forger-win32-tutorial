@@ -6,4 +6,4 @@ This repository is an unofficial repo for [theForger's Win32 API Tutorial](http:
 
 ## Changes
 
-The solution and projects have been upgraded to VS 2019 Community Edition, and the source code successfully compiles, but outdated compiler and linker flags will generate warnings during builds. I will update the flags soon.
+The solution and projects have been upgraded to VS 2019 Community Edition, and the source code successfully compiles, but outdated compiler and linker flags will generate warnings during builds. These warnings aren't anything serious and don't stop the builds, but I will update the flags soon to remedy the issue.
