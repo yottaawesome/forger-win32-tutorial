@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository is an unofficial repo for [theForger's Win32 API Tutorial](http://www.winprog.org/tutorial/)[source code](http://bit.ly/2ntziDq). No representation is made that this is my code, it's reproduced here simply so I don't forget about it and can easily reference it. All copyrights remain with theForger.
+This repository is an unofficial repo for [theForger's Win32 API Tutorial](http://www.winprog.org/tutorial/) [source code](http://bit.ly/2ntziDq). No representation is made that this is my code, it's reproduced here simply so I don't forget about it and can easily reference it. All copyrights remain with theForger.
 
 ## Building
 
