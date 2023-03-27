@@ -14,7 +14,9 @@ The solution and projects have been upgraded to VS 2022 Community Edition.
 
 ## Considerations
 
-The projects successfully compile, but the source code and compiler/linker settings are dated, and so may generate compiler and security warnings during the build. These warnings don't stop the builds, but I strongly recommend you heed them before using any code in production. When using any Win32 code from this repo in production, always consult the [Windows API Index](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list) for relevant and updated API usage notes, as some APIs may have since been deprecated or had their behaviour modified in newer versions of Windows.
+The projects successfully compile, but the source code and compiler/linker settings are dated, and so may generate compiler and security warnings during the build. These warnings don't stop the builds, but I strongly recommend you heed them before using any code in production. Remember that this is decades old Win32 code -- depending on what you're trying to do, more modern approaches such as [C++/WinRT](https://learn.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/), [WinUI 3](https://docs.microsoft.com/en-us/windows/apps/winui/winui3/), [wxWidgets](https://www.wxwidgets.org/), [Qt](https://www.qt.io/), [Ultimate++](https://www.ultimatepp.org/), [Boost](https://www.boost.org/), [POCO C++](https://pocoproject.org/), or newer additions to the C++ standard library (C++11 onwards) may be more appropriate.
+
+When using any Win32 code from this repo in production, always consult the [Windows API Index](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list) for relevant and updated API usage notes, as some APIs may have since been deprecated or had their behaviour modified in newer versions of Windows.
 
 ## Additional resources
 
@@ -24,3 +26,5 @@ The projects successfully compile, but the source code and compiler/linker setti
 * [COM and ATL](https://docs.microsoft.com/en-us/cpp/atl/introduction-to-com-and-atl?view=msvc-160)
 * [C++/WinRT](https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/)
 * [Source code for Charles Petzold's Programming Windows 5th edition](https://github.com/yottaawesome/programming-windows-5th-edition)
+* [Source code for Jeffrey Richter and Christophe Nasarre's Windows via C/C++ 5th edition](https://github.com/yottaawesome/windows-via-c-cpp)
+* [ZetCode's Windows API tutorial](https://zetcode.com/gui/winapi/)
